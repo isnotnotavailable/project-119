@@ -1,0 +1,48 @@
+body
+{
+background-image:url(https://thumbs.dreamstime.com/z/hand-draw-kids-doodle-background-objects-child-s-life-hand-draw-kids-doodle-background-objects-child-s-life-158629635.jpg) ;
+}
+
+h1
+{
+Color:rgb(255, 123, 0);
+background-color:rgb(255, 238, 0);
+height: 50px;
+}
+
+#label
+{
+    font-size: 60px;
+    color: rgb(60, 255, 0);
+}
+
+#confidence
+{
+    font-size: 60px;
+    color: rgb(60, 255, 0);
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+canvas
+{
+border:5px solid white;
+border-radius:20px;
+animation-name: example;
+animation-duration: 4s;
+margin-top: 50px;
+animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {box-shadow: 1px 1px 38px yellow;}
+    to {box-shadow: 1px 1px 38px rgb(250, 112, 0);}
+}
+
+p
+{
+padding-top: 10px;
+font-size: 25px;
+}
